@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ForecastFrenzy",
+  "version": "1.0",
+  "description": "Displays current weather information.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/weather-48.png"  
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

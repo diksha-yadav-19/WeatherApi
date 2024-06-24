@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="popup-container">
+        <header class="header">
+            <h1 style="font-family: cursive;">Get Your Daily Forecast</h1>
+        </header>
+        <main class="main-content">
+            <div class="input-container">
+                <input type="text" id="city" class="city-input" placeholder="Enter city name" />
+                <button id="getWeather" class="get-weather-btn">Get Weather</button>
+            </div>
+            <div><img src="icons/img.png" alt="nopic"></div>
+            <div id="weatherResult" class="weather-result"
+                style="font-family: cursive; font-weight: 700;font-size: 20px;"></div>
+        </main>
+        <footer class="footer">
+            <p>Powered by <a href="https://in.linkedin.com/in/diksha-yadav-32b733220" target="_blank">Diksha Yadav</a>
+            </p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
