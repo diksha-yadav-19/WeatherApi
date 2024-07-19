@@ -19,4 +19,4 @@ A simple Chrome browser extension to fetch and display current weather informati
 ## APIs Used
 -🌐 OpenWeatherMap API - Weather data API used to fetch weather information.
 ## Screenshot
-![Working Screenshot](Chrome extension.jpg)
+![Working Screenshot](Chrome%20extension.jpg)
